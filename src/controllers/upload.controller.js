@@ -37,7 +37,7 @@ export const uploadController = async (req, res) => {
 
     // Process each row in the Excel file
     for (const row of jsonData) {
-      if (!row.Email || !/^[\w.-]+@[a-zA-Z\d.-]+\.[a-zA-Z]{2,}$/.test(row.Email)) {
+      if (!row.email || !/^[\w.-]+@[a-zA-Z\d.-]+\.[a-zA-Z]{2,}$/.test(row.email)) {
         errorBucket.push({ row, error: `Invalid Email` });
         continue; // Skip invalid email
       }
