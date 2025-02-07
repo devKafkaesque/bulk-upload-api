@@ -1,7 +1,13 @@
 🚀 Bulk Upload API
 ==================
 
-This **Node.js & Express** API enables users to **bulk upload user data** via an **Excel (.xlsx/.csv) file** while ensuring data integrity and validation.It validates the data to ensure:✅ **Emails are unique & properly formatted**✅ **Mobile numbers can repeat**✅ **Invalid rows are logged into an error bucket**
+This **Node.js & Express** API enables users to **bulk upload user data** via an **Excel (.xlsx/.csv) file** while ensuring data integrity and validation.It validates the data to ensure:
+
+✅ **Emails are unique & properly formatted**
+
+✅ **Mobile numbers can repeat**
+
+✅ **Invalid rows are logged into an error bucket**
 
 🛠 **Tech Stack**
 -----------------
